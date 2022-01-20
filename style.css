@@ -1,19 +1,36 @@
 .roverImage{
     
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 30%;
+    max-height: 30%;
     margin-top: 60px;
     margin-left: 40px;
     margin-right: 40px;
-    display: flexbox;
+    width: auto;
+    height: auto;
 }
 .centered{
     align-content: center;
+    width: auto;
+    height: auto;
 }
 .header {
     display: flexbox;
+    width: auto;
+    height: auto;
 }
 .nasaimage {
     max-height: 200px;
     max-width: 150px;
+}
+
+.hide{
+    display: none;
+}
+
+.popUp{
+    width: 500px;
+    height: 500px;
+    background-color: brown;
+    z-index: 1;
+    display: flex;
 }
