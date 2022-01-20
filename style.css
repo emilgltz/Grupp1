@@ -1,0 +1,19 @@
+.roverImage{
+    
+    max-width: 400px;
+    max-height: 400px;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flexbox;
+}
+.centered{
+    align-content: center;
+}
+.header {
+    display: flexbox;
+}
+.nasaimage {
+    max-height: 200px;
+    max-width: 150px;
+}
