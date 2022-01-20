@@ -1,36 +1,89 @@
+
+
+body {
+    background-image: url("imgs/background.jpg");
+
+    height: 100%; 
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h1 {
+    font-size: 1.3em;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+button {
+    margin: 0.5em;
+    width: 70%
+}
+
+h1, h2, h3, button {
+    font-family: "Orbitron", sans-serif;
+}
+
+
 .roverImage{
     
-    max-width: 30%;
-    max-height: 30%;
+    max-width: 60%;
+    max-height: 60%;
     margin-top: 60px;
     margin-left: 40px;
     margin-right: 40px;
+    align-self: center;
     width: auto;
     height: auto;
+    display: block;
 }
 .centered{
-    align-content: center;
+    display: flex;
     width: auto;
     height: auto;
+    
 }
-.header {
-    display: flexbox;
+header {
+    background-color: black;
+    color: white;
+    opacity: 70%;
     width: auto;
     height: auto;
+    display: inline-flexbox;
+    text-align: center;
+
+   
+   
+    
+    
+    
+    
+    
 }
 .nasaimage {
-    max-height: 200px;
-    max-width: 150px;
-}
-
-.hide{
-    display: none;
+    max-height: 20%;
+    max-width: 20%;
+    display: inline-flexbox;
+    
 }
 
 .popUp{
     width: 500px;
     height: 500px;
     background-color: brown;
-    z-index: 1;
-    display: flex;
+    display: none;
+}
+.container{
+    display: flexbox;
+}
+.popUp-container{
 }
