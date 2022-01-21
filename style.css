@@ -1,4 +1,7 @@
-
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
 body {
     background-image: url("imgs/background.jpg");
@@ -8,6 +11,9 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
+
+    
 
 }
 
@@ -32,11 +38,27 @@ button {
 h1, h2, h3, button {
     font-family: "Orbitron", sans-serif;
 }
+header {
+    background-color: black;
+    color: white;
+    opacity: 70%;
+    width: 100%;
+    height: 100%;
+    display: inline-flexbox;
+    text-align: center;   
+    padding: 16px;
+    
+}
 
+hr {
+
+    
+    border: 1px solid white;
+}
 
 .roverImage{
     
-    max-width: 60%;
+    max-width: 500px;
     max-height: 60%;
     margin-top: 60px;
     margin-left: 40px;
@@ -44,29 +66,15 @@ h1, h2, h3, button {
     align-self: center;
     width: auto;
     height: auto;
-    display: block;
+    display: inline-block;
+}
+.rover{
+    display: inline-block;
 }
 .centered{
     display: flex;
     width: auto;
     height: auto;
-    
-}
-header {
-    background-color: black;
-    color: white;
-    opacity: 70%;
-    width: auto;
-    height: auto;
-    display: inline-flexbox;
-    text-align: center;
-
-   
-   
-    
-    
-    
-    
     
 }
 .nasaimage {
@@ -85,5 +93,38 @@ header {
 .container{
     display: flexbox;
 }
-.popUp-container{
+.hidden {
+    visibility: hidden;
+    max-width: 20%;
+    display: inline-block;
+}
+.headerh1 {
+    width: 100%
+}
+
+@media only screen and (min-width: 980px) {
+}
+h1 {
+    font-size: 2;
+}   
+.headerhr {
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    margin-bottom: 0px;
+}
+.changablerover {
+    max-width: 500px;
+    max-height: 60%;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    align-self: center;
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+.roverbutton {
+    display: flex;
+    max-width: 15.5em;
+    align-items: stretch;
 }
