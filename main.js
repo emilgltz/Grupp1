@@ -84,7 +84,7 @@ function getRover(roverName, cameraName) {
       moverdiv.append(changablerover);
       moverdiv.append(resetbutton);
       window.scroll({
-        top: 100,
+        top: 0,
         left: 0,
       });
       break;
@@ -106,7 +106,7 @@ function getRover(roverName, cameraName) {
       moverdiv.append(changablerover);
       moverdiv.append(resetbutton);
       window.scroll({
-        top: 100,
+        top: 0,
         left: 0,
       });
       break;
@@ -128,7 +128,7 @@ function getRover(roverName, cameraName) {
       moverdiv.append(changablerover);
       moverdiv.append(resetbutton);
       window.scroll({
-        top: 100,
+        top: 0,
         left: 0,
       });
       break;
@@ -146,5 +146,9 @@ function Returnfrompopup() {
   moverdiv.append(textbox);
   moverdiv.append(changablerover);
   moverdiv.append(resetbutton);
+  window.scroll({
+    top: 0,
+    left: 0,
+  });
 }
 Startup();

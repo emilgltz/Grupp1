@@ -5,7 +5,7 @@
 
 body {
     background-image: url("imgs/background.jpg");
-
+    text-align: center;
     height: 100%; 
 
     background-position: center;
@@ -67,6 +67,8 @@ hr {
     width: auto;
     height: auto;
     display: inline-block;
+    border: 40px;
+    border-color: white;
 }
 .rover{
     display: inline-block;
@@ -97,6 +99,14 @@ hr {
     visibility: hidden;
     max-width: 20%;
     display: inline-block;
+}
+.hiddenh3 {
+    visibility: hidden;
+    max-width: 40%;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    opacity: 70%;
 }
 .headerh1 {
     width: 100%
